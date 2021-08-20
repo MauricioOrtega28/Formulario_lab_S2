@@ -18,7 +18,7 @@ namespace Formulario_lab_S2.Controllers
         {
             double resultado=0;
             resultado = (objventas.Precio * objventas.Cantidad)*1.18;
-            ViewData["Message"] = "El precio total inluyendo el IGV es: "+ resultado; 
+            ViewData["Message"] = "El precio total teniendo en cuenta el IGV es: "+ resultado; 
            return View("Index");
         }
     }
