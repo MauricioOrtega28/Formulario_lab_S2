@@ -3,21 +3,17 @@ using Formulario_lab_S2.Models;
 
 namespace Formulario_lab_S2.Controllers
 {
-    public class VentaController:Controller
+    public class VentasController:Controller
     {
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult Create()
-        {
-           ViewData["Message"] = "Se registró la venta"; 
-           return View("Index");
-        }
+        
 
 
-        [HttpGet]
+        [HttpPost]
         public IActionResult Calcular(Ventas objventas)
         {
             double resultado=0;

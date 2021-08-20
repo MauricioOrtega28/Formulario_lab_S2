@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\usmp\\sexto ciclo\\Progra I\\Lab\\Clases\\usmp\\programacion 1\\formulario_lab_S2\\Formulario_lab_S2\\Formulario_lab_S2.csproj",
+      "projectUniqueName": "c:\\Users\\User\\Desktop\\usmp\\sexto ciclo\\Progra I\\Lab\\Clases\\usmp\\programacion 1\\formulario_lab_S2\\Formulario_lab_S2.csproj",
       "projectName": "Formulario_lab_S2",
-      "projectPath": "C:\\Users\\User\\Desktop\\usmp\\sexto ciclo\\Progra I\\Lab\\Clases\\usmp\\programacion 1\\formulario_lab_S2\\Formulario_lab_S2\\Formulario_lab_S2.csproj",
+      "projectPath": "c:\\Users\\User\\Desktop\\usmp\\sexto ciclo\\Progra I\\Lab\\Clases\\usmp\\programacion 1\\formulario_lab_S2\\Formulario_lab_S2.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\usmp\\sexto ciclo\\Progra I\\Lab\\Clases\\usmp\\programacion 1\\formulario_lab_S2\\Formulario_lab_S2\\obj\\",
+      "outputPath": "c:\\Users\\User\\Desktop\\usmp\\sexto ciclo\\Progra I\\Lab\\Clases\\usmp\\programacion 1\\formulario_lab_S2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config"
