@@ -1,0 +1,26 @@
+@model Formulario_lab_S2.Models.Ventas
+@{
+    ViewData["Title"] = "Ventas";
+}
+
+<h1>@ViewData["Title"]</h1> 
+
+<div class="text-center">
+    <h1 class="display-4">Registrar Ventas</h1>
+       <form asp-controller="Ventas" asp-action="Create">
+        <label asp-for="Nombre" class="control-label"></label>
+        <input asp-for="Nombre" class="form-control form-control-sm" type="text" placeholder="Escribe el nombre del producto" aria-label=".form-control-sm" />
+
+        <label asp-for="Cantidad" class="control-label"></label>
+        <input asp-for="Cantidad" class="form-control form-control-sm" type="text" placeholder="Escribe la cantidad" aria-label=".form-control-sm"/>
+
+        <label asp-for="Precio" class="control-label"></label>
+        <input asp-for="Precio" class="form-control form-control-sm" type="text" placeholder="Escribe el precio del producto" aria-label=".form-control-sm"/>
+
+        
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Vender</button> 
+        </div>
+    </form>
+    <h1>@ViewData["Message"]</h1>
+</div>
